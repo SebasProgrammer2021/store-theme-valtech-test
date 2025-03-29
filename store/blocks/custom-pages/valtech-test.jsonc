@@ -1,0 +1,16 @@
+{
+  "store.custom#valtech-test": {
+    "children": ["flex-layout.row#mainContainer"]
+  },
+  "flex-layout.row#mainContainer": {
+    "props": {
+      "blockClass": "mainContainer"
+    },
+    "children": ["rich-text#title", "store-app"]
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "Conoce tu fortuna"
+    }
+  }
+}
