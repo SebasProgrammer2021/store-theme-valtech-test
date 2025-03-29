@@ -6,10 +6,11 @@
     "props": {
       "blockClass": "mainContainer"
     },
-    "children": ["rich-text#title", "store-app"]
+    "children": ["rich-text#valtech-test-title", "store-app"]
   },
-  "rich-text#title": {
+  "rich-text#valtech-test-title": {
     "props": {
+      "blockClass": "valtech-test-title",
       "text": "Conoce tu fortuna"
     }
   }
