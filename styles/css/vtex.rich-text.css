@@ -67,6 +67,24 @@
   font-weight: 700;
 }
 
+.container--valtech-test-title {
+  text-align: center;
+}
+
+
+.wrapper--valtech-test-title {
+  width: 100%;
+}
+
+
+.paragraph--valtech-test-title {
+  color: #f2f2f2;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 20px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

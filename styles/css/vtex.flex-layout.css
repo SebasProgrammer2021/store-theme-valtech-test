@@ -4,6 +4,7 @@
 }
 
 @media screen and (min-width: 40em) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -11,6 +12,7 @@
 }
 
 @media screen and (min-width: 80rem) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
@@ -95,4 +97,16 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRowContent--mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20240327/pngtree-abstract-old-conceptual-background-on-mysticism-astrology-fantasy-image_15646859.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
 }
